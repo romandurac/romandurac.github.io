@@ -1,0 +1,16 @@
+.container {
+    justify-content: center;
+    display: flex;
+   }
+   body{
+     background-image: url("restaurant_door1.jpg");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-color: rgb(75, 83, 81);
+   }
+  .gallery{
+     margin: 10px 50px;
+  }
+  .gallery img{
+    width: 250px;
+  }
