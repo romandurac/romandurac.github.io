@@ -1,6 +1,5 @@
 .jumbotron {
-  font-style: italic;
-  font-family: RINGM___;
+  font-family: INSULA__;
 }
 .container {
     justify-content: center;
@@ -26,8 +25,7 @@
     transform: scale(1.1);
   }
   @font-face {
-    font-family: "RINGM___";
-    src: url("RINGM___.TTF");
+    font-family: "INSULA__";
+    src: url("INSULA__.ttf");
     font-style: normal;
-
   }
