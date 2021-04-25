@@ -9,8 +9,14 @@
      background-color: rgb(75, 83, 81);
    }
   .gallery{
+    position: relative;
      margin: 10px 50px;
   }
   .gallery img{
     width: 250px;
+    padding: 5px;
+    transition: 1s;
+  }
+  .gallery img:hover{
+    transform: scale(1.1);
   }
