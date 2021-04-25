@@ -18,6 +18,7 @@
   }
   .gallery img{
     width: 250px;
+    height: 250px;
     padding: 5px;
     transition: 1s;
   }
