@@ -7,28 +7,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="lightbox.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="lightbox.css">
 </head>
-
-<style>
-
-.container {
-    justify-content: center;
-    display: flex;
-   }
-   body{
-     background-image: url("restaurant_door1.jpg");
-     background-repeat: no-repeat;
-     background-position: top center;
-     background-color: rgb(75, 83, 81);
-   }
-   .gallery{
-      margin: 10px 50px;
-   }
-   .gallery img{
-     width: 250px;
-     text-align: center;
-   }
-</style>
 
 <body>
 
@@ -97,8 +79,7 @@
 <br>
 
 <div class="gallery">
-  <img src="spanelsky_ptacek.jpg">
-
+  <a href="spanelsky_ptacek.jpg" data-lightbox= "mygallery"><img src="spanelsky_ptacek.jpg"></a>
 </div>
 
 <div class="container">
