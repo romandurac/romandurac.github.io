@@ -1,16 +1,103 @@
 .jumbotron {
   font-family: INSULA__;
 }
-.container {
-    justify-content: center;
-    display: flex;
-   }
    body{
-     background-image: url("restaurant_door1.jpg");
-     background-repeat: no-repeat;
-     background-position: top center;
-     background-color: rgb(75, 83, 81);
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("restaurant_door1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: rgb(75, 83, 81);
    }
+   
+   input{
+    display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#cover{
+    width: 250px;
+    height: 400px;
+}
+.page-container{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    perspective: 1500px;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: rotateY(0deg);
+    transition: .5s;
+    color: white;
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.front{
+    background-color: #191966;
+    box-sizing: border-box;
+    padding: 0;
+}
+.back{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.next-btn{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+}
+.back-btn{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;  
+}
+#cover{
+  background-color: none;
+}
+#p1{
+    z-index: 3;
+}
+#p2{
+    z-index: 2;
+}
+#p3{
+    z-index: 1;
+    background-color: #191966;
+}
+#c1:checked ~ .page-container #p1{
+    transform: rotateY(-180deg);
+    z-index: 1;
+}
+#c2:checked ~ .page-container #p2{
+    transform: rotateY(-180deg);
+    z-index: 2;
+}
+#c3:checked ~ .page-container #p3{
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
+
   .gallery{
     position: relative;
      margin: 10px 50px;
@@ -29,4 +116,7 @@
     src: url("INSULA__.ttf");
     font-style: normal;
   }
-  
+  h3{
+    color: whitesmoke;
+    text-align: center;
+  }

@@ -14,69 +14,68 @@
 
 <body>
 
- <div class="jumbotron text-center jumbotron-fluid">
+ <div class="jumbotron text-center">
   <h1>Restaurace U Leny</h1>
  </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h3>Něco o nás</h3>
-      Informace ohledně resturace!!!
-    </div>
-  </div>
+<div class="container text-center">
+      
+      <div style="color: whitesmoke;">
+        <h3>Něco o nás</h3><br>
+        Informace ohledně resturace!!!
+      </div>
 </div>
 
 <div class="container">
 
-<ul class="nav nav-tabs text-center">
-  <li class="active"><a data-toggle="tab" href="#home" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Pondělí</a></li>
-  <li><a data-toggle="tab" href="#menu1" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Úterý</a></li>
-  <li><a data-toggle="tab" href="#menu2" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Středa</a></li>
-  <li><a data-toggle="tab" href="#menu3" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Čtvrtek</a></li>
-  <li><a data-toggle="tab" href="#menu4" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Pátek</a></li>
-  <li><a data-toggle="tab" href="#menu5" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Sobota</a></li>
-  <li><a data-toggle="tab" href="#menu6" style="background-image: url(button3.png); color: white; width: 78px; height: 43px;">Neděle</a></li>
+<ul class="nav nav-tabs text-center" style="position: relative;">
+  <li class="active"><a data-toggle="tab" href="#home" style="background-image: url(button3.png); background-repeat: no-repeat; color: white; width: auto; height: 43px;">Týdenní menu</a></li>
+  <li><a data-toggle="tab" href="#menu1" style="background-image: url(button3.png); background-repeat: no-repeat; color: white; width: auto; height: 43px;">Předkrmy</a></li>
+  <li><a data-toggle="tab" href="#menu2" style="background-image: url(button3.png); background-repeat: no-repeat; color: white; width: auto; height: 43px;">Menu</a></li>
+  <li><a data-toggle="tab" href="#menu3" style="background-image: url(button3.png); background-repeat: no-repeat; color: white; width: auto; height: 43px;">Deserty</a></li>
+  <li><a data-toggle="tab" href="#menu4" style="background-image: url(button3.png); background-repeat: no-repeat; color: white; width: auto; height: 43px;">Nápoje</a></li>
 </ul>
 
 </div>
 
-<div class="tab-content text-center">
-
-  <div id="home" class="tab-pane fade in active">
-    <img src="jidelni_listek1.jpg" alt="Jídelní lístek">
+<div class="container">
+  <input type="checkbox" id="c1">
+  <input type="checkbox" id="c2">
+  <input type="checkbox" id="c3">
+  <div id="cover">
   </div>
-
-  <div id="menu1" class="tab-pane fade">
-    <h3>Jídelníček:</h3>
-    <p>Tady bude jídelníček!</p>
+  <div class="page-container">
+    <div class="page" id="p1">
+      <div class="back">
+        <img src="jidelni_listek_L.png">
+        <label class="back-btn" for="c1">back</label>
+      </div>
+      <div class="front">
+        <img src="jidelni_listek1.png">
+        <label class="next-btn" for="c1">next</label>
+      </div>
+    </div>
+    <div class="page" id="p2">
+      <div class="back">
+        <img src="jidelni_listek_L.png">
+        <label class="back-btn" for="c2">back</label>
+      </div>
+      <div class="front">
+        <img src="jidelni_listek_P.png">
+          <label class="next-btn" for="c2">next</label>
+      </div>
+    </div>
+    <div class="page" id="p3">
+      <div class="back">
+        <img src="jidelni_listek2.png">
+        <label class="back-btn" for="c3">back</label>
+      </div>
+      <div class="front">
+        <img src="jidelni_listek_P.png">
+          <label class="next-btn" for="c3">next</label>
+      </div>
+    </div>
   </div>
-
-  <div id="menu2" class="tab-pane fade">
-    <h3>Jídelníček:</h3>
-    <p>Tady bude jídelníček!</p>
-  </div>
-
-  <div id="menu3" class="tab-pane fade">
-    <h3>Jídelníček:</h3>
-    <p>Tady bude jídelníček!</p>
-  </div>
-
-  <div id="menu4" class="tab-pane fade">
-    <h3>Jídelníček:</h3>
-    <p>Tady bude jídelníček!</p>
-  </div>
-
-  <div id="menu5" class="tab-pane fade">
-    <h3>Jídelníček:</h3>
-    <p>Tady bude jídelníček!</p>
-  </div>
-
-  <div id="menu6" class="tab-pane fade">
-    <h3>Jídelníček:</h3>
-    <p>Tady bude jídelníček!</p>
-  </div>
-
 </div>
 
 <div class="container">
@@ -87,7 +86,6 @@
     <a href="veprovy_bucek.jfif" data-lightbox= "mygallery"><img src="veprovy_bucek.jfif"></a>
   </div>
 </div>
-
 <br>
 <br>
 <br>
