@@ -56,12 +56,12 @@ img{
 .front{
     box-sizing: border-box;
     padding: 0;
-    background-image: url("jidelni_listek_P.png");
+    background-image: url("img/jidelni_listek_P.png");
 }
 .back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    background-image: url("jidelni_listek_L.png");
+    background-image: url("img/jidelni_listek_L.png");
 }
 .next-btn{
     position: absolute;
