@@ -25,6 +25,7 @@ img{
 #cover{
     width: 250px;
     height: 400px;
+    background-color: none;
 }
 .page-container{
     width: 250px;
@@ -71,9 +72,6 @@ img{
     bottom: 13px;
     right: 13px;
     cursor: pointer;  
-}
-#cover{
-  background-color: none;
 }
 #p1{
     z-index: 3;
