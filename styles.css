@@ -65,14 +65,14 @@ img{
 }
 .next-btn{
     position: absolute;
-    bottom: 13px;
-    right: 13px;
+    bottom: 10px;
+    left: 20px;
     cursor: pointer;
 }
 .back-btn{
     position: absolute;
-    bottom: 13px;
-    right: 13px;
+    bottom: 10px;
+    right: 20px;
     cursor: pointer;  
 }
 #p1{
