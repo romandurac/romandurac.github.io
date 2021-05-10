@@ -23,13 +23,13 @@ img{
     justify-content: center;
 }
 #cover{
-    width: 330px;
-    height: 460px;
+    width: 510px;
+    height: 810px;
     background-color: none;
 }
 .page-container{
-    width: 330px;
-    height: 460px;
+    width: 510px;
+    height: 810px;
     position: relative;
     perspective: 1500px;
 }
@@ -56,23 +56,23 @@ img{
 .front{
     box-sizing: border-box;
     padding: 0;
-    background-image: url("img/jidelni_listek_P.png");
+    background-image: url("img/jidelni_listek_P1.png");
 }
 .back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    background-image: url("img/jidelni_listek_L.png");
+    background-image: url("img/jidelni_listek_L1.png");
 }
 .next-btn{
     position: absolute;
     bottom: 10px;
-    left: 20px;
+    left: 30px;
     cursor: pointer;
 }
 .back-btn{
     position: absolute;
     bottom: 10px;
-    right: 20px;
+    right: 30px;
     cursor: pointer;  
 }
 #p1{
