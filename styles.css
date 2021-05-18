@@ -1,7 +1,7 @@
 .jumbotron {
-  font-family: INSULA__;
+    font-family: INSULA__;
 }
-   body{
+body{
     margin: 0;
     flex-direction: column;
     align-items: center;
@@ -9,9 +9,9 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-color: rgb(75, 83, 81);
-   }
+}
    
-   input{
+input{
     display: none;
 }
 img{
