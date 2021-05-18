@@ -6,13 +6,13 @@
 
   body{
     margin: 0;
+    display: flex;
     background-image: url("restaurant_door1.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-color: rgb(75, 83, 81);
 }
 .container{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -24,10 +24,6 @@
     height: max-content;
     font-family: INSULA__;
     font-size: 70px;
-}
-
-header{
-    justify-content: center;
 }
 
 #Info{
