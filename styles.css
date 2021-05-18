@@ -4,14 +4,12 @@
     font-style: normal;
   }
 
-  #Hlavicka {
+  #head {
     font-family: INSULA__;
 }
 
 body{
     margin: 0;
-    flex-direction: column;
-    align-items: center;
     background-image: url("restaurant_door1.jpg");
     background-repeat: no-repeat;
     background-position: top center;
@@ -27,6 +25,12 @@ h3{
     text-align: center;
   }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 input{
     display: none;
 }
@@ -34,10 +38,7 @@ img{
     width: 100%;
     height: 100%;
 }
-.container{
-    display: flex;
-    justify-content: center;
-}
+
 #cover{
     width: 510px;
     height: 810px;
