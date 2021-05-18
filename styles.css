@@ -1,6 +1,13 @@
-.jumbotron {
+@font-face {
+    font-family: "INSULA__";
+    src: url("INSULA__.ttf");
+    font-style: normal;
+  }
+
+  #Hlavicka {
     font-family: INSULA__;
 }
+
 body{
     margin: 0;
     flex-direction: column;
@@ -10,7 +17,16 @@ body{
     background-position: top center;
     background-color: rgb(75, 83, 81);
 }
-   
+
+h1{
+    font-size: 2cm;
+}
+
+h3{
+    color: whitesmoke;
+    text-align: center;
+  }
+
 input{
     display: none;
 }
@@ -110,12 +126,4 @@ img{
   .gallery img:hover{
     transform: scale(1.1);
   }
-  @font-face {
-    font-family: "INSULA__";
-    src: url("INSULA__.ttf");
-    font-style: normal;
-  }
-  h3{
-    color: whitesmoke;
-    text-align: center;
-  }
+  
