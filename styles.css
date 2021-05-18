@@ -4,20 +4,34 @@
     font-style: normal;
   }
 
-  #head {
-    font-family: INSULA__;
-}
-
-body{
+  body{
     margin: 0;
     background-image: url("restaurant_door1.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-color: rgb(75, 83, 81);
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#head {
+    border: 5px outset black;
+    background-color: wheat;
+    width: 1290px;
+    height: max-content;
+    font-family: INSULA__;
+    font-size: 70px;
+}
 
-h1{
-    font-size: 2cm;
+header{
+    justify-content: center;
+}
+
+#Info{
+    color: wheat;
 }
 
 h3{
@@ -25,11 +39,7 @@ h3{
     text-align: center;
   }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 input{
     display: none;
