@@ -6,7 +6,6 @@
 
   body{
     margin: 0;
-    flex-direction: column;
     background-image: url("restaurant_door1.jpg");
     background-repeat: no-repeat;
     background-position: top center;
@@ -14,6 +13,7 @@
 }
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
