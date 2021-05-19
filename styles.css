@@ -4,42 +4,45 @@
     font-style: normal;
   }
 
-  body{
+body{
     margin: 0;
-    background-image: url("restaurant_door1.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
     background-color: rgb(75, 83, 81);
-}
+   }
+
 .container{
+    border: 5px outset black;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
 }
-#head {
-    border: 5px outset black;
-    background-color: wheat;
-    width: 1290px;
-    height: max-content;
+
+.nadpis{
+    display: flex;
+    text-align: center;
+    justify-content: center;
     font-family: INSULA__;
+}
+
+h1{
     font-size: 70px;
 }
 
-#Info{
-    color: wheat;
+.b-i_jidelnicek{
+    background-image: url("restaurant_door1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
-h3{
-    color: whitesmoke;
-    text-align: center;
-  }
+.jidelnicek{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-
-
-input{
+.checkboxjidel{
     display: none;
 }
+
 img{
     width: 100%;
     height: 100%;
@@ -47,15 +50,17 @@ img{
 
 #cover{
     width: 510px;
-    height: 810px;
+    height: 711px;
     background-color: none;
 }
+
 .page-container{
     width: 510px;
-    height: 810px;
+    height: 711px;
     position: relative;
     perspective: 1500px;
 }
+
 .page{
     width: 100%;
     height: 100%;
@@ -68,6 +73,7 @@ img{
     transition: .5s;
     color: white;
 }
+
 .front, .back{
     color: black;
     position: absolute;
@@ -76,51 +82,69 @@ img{
     top: 0;
     left: 0;
 }
+
 .front{
     box-sizing: border-box;
     padding: 0;
-    background-image: url("img/jidelni_listek_P1.png");
+    background-image: url("C:/Users/smarb/Desktop/img/jidelni_listek_P.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    background-image: url("img/jidelni_listek_L1.png");
+    background-image: url("C:/Users/smarb/Desktop/img/jidelni_listek_L.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .next-btn{
     position: absolute;
     bottom: 10px;
     left: 30px;
     cursor: pointer;
+    font-weight: bold;
 }
+
 .back-btn{
     position: absolute;
     bottom: 10px;
     right: 30px;
-    cursor: pointer;  
+    cursor: pointer;
+    font-weight: bold;  
 }
+
 #p1{
     z-index: 3;
 }
+
 #p2{
     z-index: 2;
 }
+
 #p3{
     z-index: 1;
 }
+
 #c1:checked ~ .page-container #p1{
     transform: rotateY(-180deg);
     z-index: 1;
 }
+
 #c2:checked ~ .page-container #p2{
     transform: rotateY(-180deg);
     z-index: 2;
 }
+
 #c3:checked ~ .page-container #p3{
     transform: rotateY(-180deg);
     z-index: 3;
 }
 
-  .gallery{
+.gallery{
+    display: flex;
+    justify-content: center;
     position: relative;
      margin: 10px 50px;
   }
@@ -133,4 +157,3 @@ img{
   .gallery img:hover{
     transform: scale(1.1);
   }
-  
