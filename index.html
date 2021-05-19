@@ -1,114 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Restaurace U Leny</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="lightbox.js"></script>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="lightbox.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flip Book</title>
+	<script src="lightbox.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="lightbox.css">
 </head>
-
 <body>
 
 <div class="container">
-  <div class="header" id="head">
-    Restaurace U Leny
-  </div>
 
-    <h3 id="Info">Něco o nás</h3>
-    <br>
-    Informace ohledně resturace!!!
+	<div class="nadpis">
+		<h1>Restaurace u Leny</h1>
+	</div>
 
-<ul class="nav nav-tabs text-center">
-  <li><a data-toggle="tab" href="#napoj" style="color: white; width: auto; height: auto;">Týdenní menu</a></li>
-  <li><a data-toggle="tab" href="#p2" style="color: white; width: auto; height: auto;">Česky</a></li>
-  <li><a data-toggle="tab" href="#p3" style="color: white; width: auto; height: auto;">Deutsche</a></li>
-  <li><a data-toggle="tab" href="#menu3" style="color: white; width: auto; height: auto;">English</a></li>
-  <li><a data-toggle="tab" href="#menu4" style="color: white; width: auto; height: auto;">Polskie</a></li>
-</ul>
+	<div class="jidelnicek">
 
-  <input type="checkbox" id="c1">
-  <input type="checkbox" id="c2">
-  <input type="checkbox" id="c3">
-  <div id="cover">
-  </div>  
-    <div class="page-container">
-      <div class="page" id="p1">
-        <div class="back">          
-          <img src="img/napoj_listek.jpg" style="padding-right: 16px; padding-left: 7px; padding-top: 6px; padding-bottom: 6px;">
-          <label class="back-btn" for="c1">back</label>         
-        </div>
-       <div class="front">
-          <img src="img/jidelni_listek1.png">
-          <label class="next-btn" for="c1">next</label>
-        </div>
-      </div>
-      <div class="page" id="p2">
-        <div class="back">
-          <img src="" style="padding-right: 16px; padding-left: 7px; padding-top: 6px; padding-bottom: 6px;">
-          <label class="back-btn" for="c2">back</label>
-        </div>
-        <div class="front">
-          <img src="img/napoj_listek1.jpg" style="padding-right: 7px; padding-left: 16px; padding-top: 6px; padding-bottom: 6px;">
-            <label class="next-btn" for="c2">next</label>
-        </div>
-      </div>
-      <div class="page" id="p3">
-        <div class="back">
-          <img src="img/jidelni_listek2.png">
-          <label class="back-btn" for="c3">back</label>
-        </div>
-        <div class="front">
-          <img src="" style="padding-right: 7px; padding-left: 16px; padding-top: 6px; padding-bottom: 6px;">
-          <label class="next-btn" for="c3">next</label>
-        </div>
-      </div>    
-  </div>
+		<input class="checkboxjidel" type="checkbox" id="c1">
+		<input class="checkboxjidel" type="checkbox" id="c2">
+		<input class="checkboxjidel" type="checkbox" id="c3">
+		<div id="cover">
+			<img src="C:/Users/smarb/Desktop/bila.png">
+		</div>
+		<div class="page-container">
+		  <div class="page" id="p1">
+			<div class="back">
+			  <img src="C:/Users/smarb/Desktop/img/napoj_listek.jpg" id="back">
+			  <label class="back-btn" for="c1">ZPĚT</label>
+			</div>
+			<div class="front">
+			  <img src="C:/Users/smarb/Desktop/img/jidelni_listek1.png">
+			  <label class="next-btn" for="c1">DALŠÍ</label>
+			</div>
+		  </div>
+		  <div class="page" id="p2">
+			<div class="back">
+			  <img src="" id="back">
+			  <label class="back-btn" for="c2">ZPĚT</label>
+			</div>
+			<div class="front">
+			  <img src="C:/Users/smarb/Desktop/img/napoj_listek1.jpg" id="next">
+				<label class="next-btn" for="c2">DALŠÍ</label>
+			</div>
+		  </div>
+		  <div class="page" id="p3">
+			<div class="back">
+			  <img src="C:/Users/smarb/Desktop/img/jidelni_listek2.png">
+			  <label class="back-btn" for="c3">ZPĚT</label>
+			</div>
+			<div class="front">
+			  <img src="" id="next">
+				<label class="next-btn" for="c3">DALŠÍ</label>
+			</div>
+		  </div>
+		</div>
+	
+	</div>
 
+		<div class="gallery">
+			<a href="C:/Users/smarb/Desktop/img/spanelsky_ptacek.jpg" data-lightbox= "mygallery"><img src="C:/Users/smarb/Desktop/img/spanelsky_ptacek.jpg"></a>
+		</div>
+		<div class="gallery">
+			<a href="C:/Users/smarb/Desktop/img/veprovy_bucek.jfif" data-lightbox= "mygallery"><img src="C:/Users/smarb/Desktop/img/veprovy_bucek.jfif"></a>
+		</div>
 
-<br>
-<br>
-<br>
-
-  <div class="gallery">
-    <a href="spanelsky_ptacek.jpg" data-lightbox= "mygallery"><img src="spanelsky_ptacek.jpg"></a>
-  </div>
-  <div class="gallery">
-    <a href="veprovy_bucek.jfif" data-lightbox= "mygallery"><img src="veprovy_bucek.jfif"></a>
-  </div>
-
-<br>
-<br>
-<br>
-
-<div class="row">
-  <div id="mapouter" class="col-sm-12" style="background-color:white; height: 520px; width: 1320px">
-    <br>
-    <div class="mapouter">
-      <div class="gmap_canvas">
-        <iframe width="1290" height="480" id="gmap_canvas" src="https://maps.google.com/maps?q=restaurace%20u%20leny&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        <a href="https://fmovies2.org">fmovies</a>
-        <br>
-        <style>.mapouter{position:relative;text-align:right;height:480px;width:1290px;}</style>
-        <a href="https://www.embedgooglemap.net">google maps embed iframe</a>
-        <style>.gmap_canvas {overflow:hidden;background:none!important;height:480px;width:1290px;}</style>
-      </div>
-    </div>
-  </div>
 </div>
-
-<div style="display: flex; flex-direction: row; justify-content: center">
-  <div class="col-sm-6" style="background-color:white; height: 100px; width: 660px;">
-    <h5><span class="glyphicon glyphicon-envelope">Email: resuleny@gmail.com</span></h5>
-  </div>
-  <div class="col-sm-6" style="background-color:white; height: 100px; width: 660px;">
-    <h5><span class="glyphicon glyphicon-envelope">Email: resuleny@gmail.com</span></h5>
-  </div>
-</div>
-</div>
-
 
 </body>
 </html>

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "INSULA__";
+    src: url("INSULA__.ttf");
+    font-style: normal;
+  }
+
+body{
+    margin: 0;
+    background-color: rgb(75, 83, 81);
+   }
+
+.container{
+    border: 5px outset black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nadpis{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: INSULA__;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.b-i_jidelnicek{
+    background-image: url("restaurant_door1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.jidelnicek{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.checkboxjidel{
+    display: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#cover{
+    width: 510px;
+    height: 711px;
+    background-color: none;
+}
+
+.page-container{
+    width: 510px;
+    height: 711px;
+    position: relative;
+    perspective: 1500px;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: rotateY(0deg);
+    transition: .5s;
+    color: white;
+}
+
+.front, .back{
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.front{
+    box-sizing: border-box;
+    padding: 0;
+    background-image: url("C:/Users/smarb/Desktop/img/jidelni_listek_P.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background-image: url("C:/Users/smarb/Desktop/img/jidelni_listek_L.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.back-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    cursor: pointer;
+    font-weight: bold;  
+}
+
+#p1{
+    z-index: 3;
+}
+
+#p2{
+    z-index: 2;
+}
+
+#p3{
+    z-index: 1;
+}
+
+#c1:checked ~ .page-container #p1{
+    transform: rotateY(-180deg);
+    z-index: 1;
+}
+
+#c2:checked ~ .page-container #p2{
+    transform: rotateY(-180deg);
+    z-index: 2;
+}
+
+#c3:checked ~ .page-container #p3{
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    position: relative;
+     margin: 10px 50px;
+  }
+  .gallery img{
+    width: 250px;
+    height: 250px;
+    border: 4px solid white;
+    transition: 1s;
+  }
+  .gallery img:hover{
+    transform: scale(1.1);
+  }
