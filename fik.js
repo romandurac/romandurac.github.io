@@ -1,1 +1,1 @@
-alert("I am script");
+alert("Stránka funkčí zatím jen pro PC");
