@@ -17,10 +17,14 @@ body{
 }
 
 .nadpis{
+    background-image: url("img/nadpis_img.png");
+    background-repeat: no-repeat;
+    background-position: top center;
     display: flex;
     text-align: center;
     justify-content: center;
     font-family: INSULA__;
+
 }
 
 h1{
