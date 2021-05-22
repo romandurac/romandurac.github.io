@@ -89,17 +89,11 @@ img{
 
 .front{
     box-sizing: border-box;
-    background-image: url("img/jidelni_listek_P.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    background-image: url("img/jidelni_listek_L.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .next-btn{
