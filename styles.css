@@ -185,13 +185,13 @@ img{
 }
 
 .kontleva{
-    width: 47%;
+    width: 50%;
     display: flex;
     border: 1px outset rgb(0, 0, 0);
 }
 
 .kontprava{
-    width: 47%;
+    width: 50%;
     display: flex;
     border: 1px outset rgb(0, 0, 0);
 }
