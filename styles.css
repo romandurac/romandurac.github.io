@@ -9,8 +9,17 @@ body{
     background-color: rgb(226, 228, 203);;
    }
 
+.web{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
 .container{
     border: 5px outset black;
+    max-width: 1320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,10 +172,14 @@ img{
     transform: scale(1.1);
 }
 
-  .mapa{
+.mapacontainer{
     margin-top: 15px;
     display: flex;
     justify-content: center;
+}
+
+.mapa{
+    width: 100%;
 }
 
 .kontakt{
