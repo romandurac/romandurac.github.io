@@ -24,12 +24,6 @@ body{
     justify-content: center;
 }
 
-@media only screen and (max-width: 1024px) {
-    .container {
-      max-width: 1000px;
-    }
-  }
-
 .nadpis{
     background-image: url("img/nadpis_img.png");
     background-repeat: no-repeat;
