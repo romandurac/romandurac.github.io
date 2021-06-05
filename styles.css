@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    border: 5px outset black;
+
     max-width: 1320px;
     display: flex;
     flex-direction: column;
@@ -81,6 +81,7 @@ h1{
 }
 
 .kontakt{
+    background-color: rgb(255, 247, 213);
     margin-top: 5px;
     display: flex;
     justify-content: center;
@@ -96,13 +97,13 @@ h1{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 1px outset rgb(0, 0, 0);
+
 }
 
 .kontprava{
     width: 50%;
     display: flex;
-    border: 1px outset rgb(0, 0, 0);
+
 }
 
 p{
