@@ -16,16 +16,16 @@ img{
 }
 
 #cover{
-    width: 510px;
-    height: 711px;
+    width: 50vh;
+    height: 70vh;
     background-color: none;
 }
 
 .page-container{
-    width: 510px;
-    height: 711px;
+    width: 50vh;
+    height: 70vh;
     position: relative;
-    perspective: 1500px;
+    perspective: 100vh;
 }
 
 .page{
