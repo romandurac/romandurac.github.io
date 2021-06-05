@@ -18,7 +18,6 @@ body{
 }
 
 .container{
-
     max-width: 1320px;
     display: flex;
     flex-direction: column;
