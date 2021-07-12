@@ -32,11 +32,20 @@ body{
     text-align: center;
     justify-content: center;
     font-family: INSULA__;
-
 }
 
 h1{
     font-size: 70px;
+}
+
+.info{
+    background-color: rgb(255, 247, 213);
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 1320px;
+    height: 120px;
 }
 
 .backimage{
@@ -101,7 +110,6 @@ h1{
 .kontprava{
     width: 50%;
     display: flex;
-
 }
 
 p{
