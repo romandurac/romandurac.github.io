@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "INSULA__";
+    src: url("INSULA__.ttf");
+    font-style: normal;
+  }
+
+body{
+    padding: 3%;
+    background-color: rgb(226, 228, 203);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nadpis{
+    background-image: url("nadpis.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 75%;
+    font-size: 250%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: INSULA__;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.flags{
+    display: flex;
+    text-align: center;
+}
+
+img{
+    padding: 5%;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.CZ{
+    font-size: 175%;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.EN{
+    font-size: 175%;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.DE{
+    font-size: 175%;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.PL{
+    font-size: 175%;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}

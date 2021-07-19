@@ -1,148 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Restaurace u Leny</title>
-	<script type="text/javascript" src="styles/lightbox-plus-jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/jidelak.css">
-	<link rel="stylesheet" type="text/css" href="styles/lightbox.min.css">
-	<script type="text/javascript" src="styles/fik.js"></script>
+  <title>Restaurace U Leny</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="web">
+  <div class="container">
 
-<div class="container">
+    <div class="nadpis">
+      <h1>Restaurace u Leny</h1>
+    </div>
 
-	<div class="nadpis">
-		<h1>Restaurace u Leny</h1>
-	</div>
+    <div class="languages">
+      <div class="flags">
+        <div class="czflag"><a href="https://romandurac.github.io/"><img src="Czech_flag.jpg"></a></div>
+        <div class="enflag"><a href="https://romandurac.github.io/"><img src="England_flag.jpg"></a></div>
+        <div class="deflag"><a href="https://romandurac.github.io/"><img src="Germany_flag.jpg"></a></div>
+        <div class="plflag"><a href="https://romandurac.github.io/"><img src="Poland_flag.jpg"></a></div>
+      </div>
+    </div>
 
-	<div class="info">
-		<h1>Vítáme Vás v rodinné Restauraci U Leny</h1>
-	</div>
+    <div class="choice">
+      <div class="CZ">Vyber si Jazyk</div>
+      <div class="EN">Choice your Language</div>
+      <div class="DE">Wähle deine Sprache</div>
+      <div class="PL">Wybierz swój Język</div>
+    </div>
 
-	<div class="backimage">
-
-		<div class="jidelnicek">
-
-			<input class="checkboxjidel" type="checkbox" id="c1">
-			<input class="checkboxjidel" type="checkbox" id="c2">
-			<input class="checkboxjidel" type="checkbox" id="c3">
-			<input class="checkboxjidel" type="checkbox" id="c4">
-			<input class="checkboxjidel" type="checkbox" id="c5">
-			<input class="checkboxjidel" type="checkbox" id="c6">
-			<input class="checkboxjidel" type="checkbox" id="c7">
-			<div id="cover">
-			</div>
-			<div class="page-container">
-			  <div class="page" id="p1">
-				<div class="back">
-				  <img src="img/jidelak/1.tydenni_menu.png" id="back">
-				  <label class="back-btn" for="c1">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelni_listek1.png">
-				  <label class="next-btn" for="c1">DALŠÍ</label>
-				</div>
-			  </div>
-			  <div class="page" id="p2">
-				<div class="back">
-				  <img src="img/jidelak/3.teple_napoje.png" id="back">
-				  <label class="back-btn" for="c2">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelak/2.nealko_napoje.png" id="next">
-					<label class="next-btn" for="c2">DALŠÍ</label>
-				</div>
-			  </div>
-			  <div class="page" id="p3">
-				<div class="back">
-				  <img src="img/jidelak/5.vino.png">
-				  <label class="back-btn" for="c3">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelak/4.pivo.png" id="next">
-					<label class="next-btn" for="c3">DALŠÍ</label>
-				</div>
-			  </div>
-			  <div class="page" id="p4">
-				<div class="back">
-				  <img src="img/jidelak/7.jidelni_listek_polevky.png">
-				  <label class="back-btn" for="c4">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelak/6.destilaty.png" id="next">
-					<label class="next-btn" for="c4">DALŠÍ</label>
-				</div>
-			  </div>
-			  <div class="page" id="p5">
-				<div class="back">
-				  <img src="img/jidelak/9.jidla_z_vepr.png">
-				  <label class="back-btn" for="c5">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelak/8.jidelni_listek_hotovky.png" id="next">
-					<label class="next-btn" for="c5">DALŠÍ</label>
-				</div>
-			  </div>
-			  <div class="page" id="p6">
-				<div class="back">
-				  <img src="img/jidelak/11.kure_kruti.png">
-				  <label class="back-btn" for="c6">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelak/10.special.png" id="next">
-					<label class="next-btn" for="c6">DALŠÍ</label>
-				</div>
-			  </div>
-			  <div class="page" id="p7">
-				<div class="back">
-				  <img src="img/jidelni_listek2.png">
-				  <label class="back-btn" for="c7">ZPĚT</label>
-				</div>
-				<div class="front">
-				  <img src="img/jidelak/12.ryby_bezmasa.png" id="next">
-					<label class="next-btn" for="c7">DALŠÍ</label>
-				</div>
-			  </div>
-			</div>
-		
-		</div>
-
-		<div class="galleryflex">
-
-			<div class="gallery">
-				<a href="img/spanelsky_ptacek.jpg" data-lightbox= "mygallery"><img src="img/spanelsky_ptacek.jpg"></a>
-			</div>
-			<div class="gallery">
-				<a href="img/veprovy_bucek.jfif" data-lightbox= "mygallery"><img src="img/veprovy_bucek.jfif"></a>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="mapacontainer">
-		<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.5861792629544!2d16.22453906556246!3d48.871657586871095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712ad4b935c9c55%3A0x5e285e4889554546!2sRestaurace%20U%20Leny!5e0!3m2!1scs!2scz!4v1621778530760!5m2!1scs!2scz" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-	</div>
-
-	<div class="kontakt">
-		<div class="kontleva">
-			<p> E-mail: <a href="mailto:bazalova.lenka@seznam.cz">bazalova.lenka@seznam.cz</a></p>
-			<p>Tel.: +420 515 271 606</p>
-			<p>Mobile: +420 607 706 175</p>
-		</div>
-		<div class="kontprava">
-		
-		</div>
-	</div>
-
-</div>
-
-</div>
+  </div>
 
 </body>
 </html>
