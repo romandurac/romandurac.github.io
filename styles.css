@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "INSULA__";
-    src: url("INSULA__.ttf");
-    font-style: normal;
-  }
-
 body{
     padding: 3%;
     background-color: rgb(226, 228, 203);
@@ -11,27 +5,16 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .nadpis{
-    background-image: url("nadpis.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 75%;
-    font-size: 600%;
-    padding-top: 1%;
-    padding-bottom: 3%;
     display: flex;
-    text-align: center;
     justify-content: center;
-    font-family: INSULA__;
+    align-self: center;
 }
 
 .languages{
     display: flex;
-    flex-direction: row;
-    align-self: center;
 }
 
 .flags{
@@ -45,37 +28,20 @@ img{
     max-height: 75%;
 }
 
-.choice{
+.kontakt{
+    margin-top: 10px;
+    background-color: rgb(238, 235, 198);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 
-.CZ{
-    font-size: 175%;
-    padding-top: 3%;
-    padding-left: 6%;
-    padding-right: 6%;
+.mapacontainer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.EN{
-    font-size: 175%;
-    padding-top: 3%;
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
-.DE{
-    font-size: 175%;
-    padding-top: 3%;
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
-.PL{
-    font-size: 175%;
-    padding-top: 3%;
-    padding-left: 6%;
-    padding-right: 6%;
+.mapa{
+    width: 100%;
 }
