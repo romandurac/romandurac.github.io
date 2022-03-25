@@ -24,8 +24,8 @@ img{
 /* Pro width 888px: a menší*/
 @media only screen and (max-width: 925px) {
 img {
-    width: 60vh;
-    height: 8vh;
+    width: 50vh;
+    height: 6.5vh;
     margin: 0;
     }
   }
