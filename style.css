@@ -28,6 +28,10 @@ img {
     height: 6.5vh;
     margin: 0;
     }
+
+.img{
+  min-height: 10vh;
+}
   }
 
   .flags{
@@ -198,14 +202,72 @@ img {
     }
     
     .czech{
-      margin-left: 8.5vh;
+      height:2.5vh;
+      width:10vh;
+      margin-left: 4.7vh;
       }
-      
-    .poland{
-      margin-left: 9vh;
+
+    .czech:after{
+      margin-top:2.5vh;
+      margin-right: 5vh;
+      border-top: 2.5vh solid transparent;
+      border-left: 5vh solid blue;
+      border-bottom: 2.5vh solid transparent;
     }
 
-    .germany{
-      margin-left: 9vh;
+    .czech:before{
+      margin-top:5vh;
+      height:2.5vh;
+      width: 10vh;
     }
+
+    .cztext{
+      margin: 2.5vh;
+      font-size: 1.5vh;
+    }
+      
+    .poland{
+      height: 2.5vh;
+      width: 10vh;
+      margin-left: 4.7vh;
+    }
+
+    .poland:after{
+      margin-top: 5vh;
+      height: 2.5vh;
+      width: 10vh;
+    }
+
+    .pltext{
+      margin: 2.5vh;
+      font-size: 1.5vh;
+  }
+
+  .germany{
+    height: 1.665vh;
+    width: 10vh;
+    margin-left: 4.7vh;
+  }
+
+  .germany::after{
+    margin-top: 3.33vh;
+    height: 1.67vh;
+    width: 10vh;
+  }
+
+  .germany::before{
+    margin-top: 6.66vh;
+    height: 1.665vh;
+    width: 10vh;
+  }
+
+  .detext{
+    margin: 3.5vh;
+    font-size: 1.5vh;
+  }
+
+  .entext{
+    margin: 2.5vh;
+    font-size: 1.5vh;
+  }
       }
