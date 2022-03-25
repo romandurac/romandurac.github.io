@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(226, 228, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.img{
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+img{
+    width: 110vh;
+    height: 17vh;
+    margin: 0;
+}
+
+/* Pro width 888px: a menší*/
+@media only screen and (max-width: 925px) {
+img {
+    width: 70vh;
+    height: 10vh;
+    margin: 0;
+    }
+  }
+
+  .flags{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 1vh;
+}
+
+.czflag{
+    display: block;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.enflag{
+    display: block;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.deflag{
+    display: block;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.plflag{
+    display: block;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.czech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5vh;
+    width:20vh;
+    background-color: white;
+    margin-left: 1vh;
+  }
+  .czech:after{
+    content:"";
+    display:block;
+    position: absolute;
+  
+    margin-top:5vh;
+    margin-right: 10vh;
+    width: 0;
+      height: 0;
+      border-top: 5vh solid transparent;
+      border-left: 10vh solid blue;
+      border-bottom: 5vh solid transparent;
+    z-index:2;
+  }
+  .czech:before{
+    content:"";
+    display:block;
+    position: absolute;
+    background-color: red;
+    margin-top:10vh;
+    height:5vh;
+    width: 20vh;
+  }
+
+  .cztext{
+      margin: 5vh;
+      font-size: 2vh;
+  }
+
+  .poland{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 5vh;
+      width: 20vh;
+      background-color: white;
+      margin-left: 2.5vh;
+  }
+  .poland:after{
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: red;
+      margin-top: 10vh;
+      height: 5vh;
+      width: 20vh;
+  }
+
+  .pltext{
+      margin: 5vh;
+      font-size: 2vh;
+  }
+
+  .germany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.33vh;
+    width: 20vh;
+    background-color: black;
+    margin-left: 5.5vh;
+  }
+
+  .germany::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 6.66vh;
+    height: 3.34vh;
+    width: 20vh;
+  }
+
+  .germany::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    margin-top: 13.33vh;
+    height: 3.33vh;
+    width: 20vh;
+  }
+
+  .detext{
+    margin: 7vh;
+    font-size: 2vh;
+  }
+
+  .entext{
+    margin: 10vh;
+    font-size: 2vh;
+  }
+
+  @media only screen and (max-width: 925px) {
+     
+    .flags{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .czflag{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    
+    }
+    
+    .enflag{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .deflag{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .plflag{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .czech{
+      margin-left: 8.5vh;
+      }
+      
+    .poland{
+      margin-left: 9vh;
+    }
+
+    .germany{
+      margin-left: 9vh;
+    }
+      }
